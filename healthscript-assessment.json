@@ -1,0 +1,597 @@
+{
+    "userId": 600,
+    "surveys": [
+        {
+            "id": 42785820,
+            "title": "BAROS",
+            "questionnaire": {
+                "day": 2,
+                "questions": [
+                    {
+                        "id": 1,
+                        "bound": "0",
+                        "questionId": 816,
+                        "question": {
+                            "questionText": "How much weight have you lost as a percent of excess?",
+                            "questionLabel": "Weight Loss",
+                            "questionId": 816,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "Percent Of Excess",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "Gained Weight",
+                                    "selected": false,
+                                    "weightage": -1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "0 – 24%",
+                                    "selected": false,
+                                    "weightage": 0,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "25 – 49%",
+                                    "selected": false,
+                                    "weightage": 1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "50 – 74%",
+                                    "selected": false,
+                                    "weightage": 2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "75 – 100%",
+                                    "selected": false,
+                                    "weightage": 3,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "bound": "0",
+                        "questionId": 817,
+                        "question": {
+                            "questionText": "How have your medical conditions been?",
+                            "questionLabel": "Medical Conditions",
+                            "questionId": 817,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "Medical Conditions",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "Worse",
+                                    "selected": false,
+                                    "weightage": -1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "Unchanged",
+                                    "selected": false,
+                                    "weightage": 0,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "Improved",
+                                    "selected": false,
+                                    "weightage": 1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "One major resolved,Others improved",
+                                    "selected": false,
+                                    "weightage": 2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "All major resolved,Others improved",
+                                    "selected": false,
+                                    "weightage": 3,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "bound": "0",
+                        "questionId": 818,
+                        "question": {
+                            "questionText": "On a scale of 1-10, rate how you usually feel, with 1 being very bad and 10 being the best",
+                            "questionLabel": "Feelings Scale",
+                            "questionId": 818,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "1-10 Assessment Scale",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "1",
+                                    "selected": false,
+                                    "weightage": -0.5,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "2",
+                                    "selected": false,
+                                    "weightage": -0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "3",
+                                    "selected": false,
+                                    "weightage": -0.3,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "4",
+                                    "selected": false,
+                                    "weightage": -0.2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "5",
+                                    "selected": false,
+                                    "weightage": -0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "6",
+                                    "selected": false,
+                                    "weightage": 0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "7",
+                                    "selected": false,
+                                    "weightage": 0.2,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "8",
+                                    "selected": false,
+                                    "weightage": 0.3,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "9",
+                                    "selected": false,
+                                    "weightage": 0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "10",
+                                    "selected": false,
+                                    "weightage": 0.5,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 4,
+                        "bound": "0",
+                        "questionId": 819,
+                        "question": {
+                            "questionText": " Rate how much you enjoy Physical Activities, with 1 meaning hate physical activities and 10 meaning total enjoyment.",
+                            "questionLabel": "Physical Activities Scale",
+                            "questionId": 819,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "1-10 Assessment Scale",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "1",
+                                    "selected": false,
+                                    "weightage": -0.5,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "2",
+                                    "selected": false,
+                                    "weightage": -0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "3",
+                                    "selected": false,
+                                    "weightage": -0.3,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "4",
+                                    "selected": false,
+                                    "weightage": -0.2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "5",
+                                    "selected": false,
+                                    "weightage": -0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "6",
+                                    "selected": false,
+                                    "weightage": 0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "7",
+                                    "selected": false,
+                                    "weightage": 0.2,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "8",
+                                    "selected": false,
+                                    "weightage": 0.3,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "9",
+                                    "selected": false,
+                                    "weightage": 0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "10",
+                                    "selected": false,
+                                    "weightage": 0.5,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 5,
+                        "bound": "0",
+                        "questionId": 820,
+                        "question": {
+                            "questionText": "Rate your satisfaction with Social Contacts, with 1 being extremely unsatisfied and 10 being completely satisfied.",
+                            "questionLabel": "Social Contacts Scale",
+                            "questionId": 820,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "1-10 Assessment Scale",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "1",
+                                    "selected": false,
+                                    "weightage": -0.5,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "2",
+                                    "selected": false,
+                                    "weightage": -0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "3",
+                                    "selected": false,
+                                    "weightage": -0.3,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "4",
+                                    "selected": false,
+                                    "weightage": -0.2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "5",
+                                    "selected": false,
+                                    "weightage": -0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "6",
+                                    "selected": false,
+                                    "weightage": 0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "7",
+                                    "selected": false,
+                                    "weightage": 0.2,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "8",
+                                    "selected": false,
+                                    "weightage": 0.3,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "9",
+                                    "selected": false,
+                                    "weightage": 0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "10",
+                                    "selected": false,
+                                    "weightage": 0.5,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 6,
+                        "bound": "0",
+                        "questionId": 821,
+                        "question": {
+                            "questionText": "Rate your ability to work, with 1 being not able to work at all and 10 being working normal schedule and performing all tasks.",
+                            "questionLabel": "Work Ability Scale",
+                            "questionId": 821,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "1-10 Assessment Scale",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "1",
+                                    "selected": false,
+                                    "weightage": -0.5,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "2",
+                                    "selected": false,
+                                    "weightage": -0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "3",
+                                    "selected": false,
+                                    "weightage": -0.3,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "4",
+                                    "selected": false,
+                                    "weightage": -0.2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "5",
+                                    "selected": false,
+                                    "weightage": -0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "6",
+                                    "selected": false,
+                                    "weightage": 0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "7",
+                                    "selected": false,
+                                    "weightage": 0.2,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "8",
+                                    "selected": false,
+                                    "weightage": 0.3,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "9",
+                                    "selected": false,
+                                    "weightage": 0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "10",
+                                    "selected": false,
+                                    "weightage": 0.5,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 7,
+                        "bound": "0",
+                        "questionId": 822,
+                        "question": {
+                            "questionText": "Rate the pleasure you get out of Sex, with 1 being no pleasure at all and 10 being the best.",
+                            "questionLabel": "Sex Pleasure Scale",
+                            "questionId": 822,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "1-10 Assessment Scale",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "1",
+                                    "selected": false,
+                                    "weightage": -0.5,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "2",
+                                    "selected": false,
+                                    "weightage": -0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "3",
+                                    "selected": false,
+                                    "weightage": -0.3,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "4",
+                                    "selected": false,
+                                    "weightage": -0.2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "5",
+                                    "selected": false,
+                                    "weightage": -0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "6",
+                                    "selected": false,
+                                    "weightage": 0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "7",
+                                    "selected": false,
+                                    "weightage": 0.2,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "8",
+                                    "selected": false,
+                                    "weightage": 0.3,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "9",
+                                    "selected": false,
+                                    "weightage": 0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "10",
+                                    "selected": false,
+                                    "weightage": 0.5,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    },
+                    {
+                        "id": 8,
+                        "bound": "0",
+                        "questionId": 823,
+                        "question": {
+                            "questionText": "Rate your approach to food, with 1 being extremely unhealthy and 10 being the best.",
+                            "questionLabel": "Food Approach Scale",
+                            "questionId": 823,
+                            "required": true,
+                            "uiType": "Dropdown",
+                            "dashboardType": "",
+                            "questionTypeName": "1-10 Assessment Scale",
+                            "showOnQuestionBank": false,
+                            "options": [
+                                {
+                                    "label": "1",
+                                    "selected": false,
+                                    "weightage": -0.5,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "2",
+                                    "selected": false,
+                                    "weightage": -0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "3",
+                                    "selected": false,
+                                    "weightage": -0.3,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "4",
+                                    "selected": false,
+                                    "weightage": -0.2,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "5",
+                                    "selected": false,
+                                    "weightage": -0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "6",
+                                    "selected": false,
+                                    "weightage": 0.1,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "7",
+                                    "selected": false,
+                                    "weightage": 0.2,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "8",
+                                    "selected": false,
+                                    "weightage": 0.3,
+                                    "alarming": false
+                                },
+								{
+                                    "label": "9",
+                                    "selected": false,
+                                    "weightage": 0.4,
+                                    "alarming": false
+                                },
+                                {
+                                    "label": "10",
+                                    "selected": false,
+                                    "weightage": 0.5,
+                                    "alarming": false
+                                }
+                            ],
+                            "status": "Active",
+                            "alarming": false
+                        }
+                    }
+                ],
+                "cycleId": 15714,
+                "category": "Assessment"
+            },
+            "startTime": "15:30:00",
+            "endTime": "18:30:00",
+            "frequency": 14,
+            "status": "Active",
+            "welcomeMessage": "Would you like to take your survey?",
+            "createdBy": "potomacclin@test.com",
+            "submittedHistory": []
+        }
+    ],
+    "medication": [],
+    "day": 2
+}
